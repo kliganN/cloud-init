@@ -6,7 +6,7 @@ packages:
   - fail2ban
 
 users:
-  - name: kligann
+  - name: user
     groups: sudo
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
